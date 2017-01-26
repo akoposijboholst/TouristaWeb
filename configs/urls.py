@@ -25,5 +25,8 @@ urlpatterns = [
     url(r'^signin.html', touristapp.views.SignIn, name='signin.html'),
     url(r'^signup.html', touristapp.views.CreateTravelAgency, name='signup.html'),
     url(r'^api/get-booked-tours', touristapp.views.GetBookedPackages, name='get-booked-tours'),
-    url(r'^api/get-confirm-transaction', touristapp.views.GetConfirmPackageTG, name='get-confirm-transaction')
+    url(r'^api/get-confirm-transaction', touristapp.views.GetConfirmPackageTG, name='get-confirm-transaction'),
+    url(r'^api/post-friends', touristapp.views.PostFriends, name='post-friends'),
+    url(r'^api/add-rating-to-tour-guide-and-package', touristapp.views.AddRatingToTourGuideAndPackage, name='add-rating-to-tour-guide-and-package'),
+    url(r'^api/get-friends-activity', touristapp.views.GetFriendsActivity, name='get-friends-activity')
 ]

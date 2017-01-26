@@ -45,7 +45,8 @@ USER = [
 	'lastName',
 	'birthday',
 	'email',
-	'contactNumber'
+	'contactNumber',
+	'facebookId'
 ]
 
 TOUR_TRANSACTION = [

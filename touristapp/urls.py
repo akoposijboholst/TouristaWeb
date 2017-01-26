@@ -23,7 +23,8 @@ urlpatterns = [
     url(r'^signin.html', views.SignIn, name='signin.html'),
     url(r'^signup.html', views.CreateTravelAgency, name='signup.html'),
     url(r'^api/get-booked-tours', views.GetBookedPackages, name='get-booked-tours'),
-    url(r'^api/get-confirm-transaction', views.GetConfirmPackageTG, name='get-confirm-transaction')
-
-
+    url(r'^api/get-confirm-transaction', views.GetConfirmPackageTG, name='get-confirm-transaction'),
+    url(r'^api/post-friends', views.PostFriends, name='post-friends'),
+    url(r'^api/add-rating-to-tour-guide-and-package', views.AddRatingToTourGuideAndPackage, name='add-rating-to-tour-guide-and-package'),
+    url(r'^api/get-friends-activity', views.GetFriendsActivity, name='get-friends-activity')
 ]
